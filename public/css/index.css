@@ -1,0 +1,14 @@
+.localBorder{
+    border-right: #0380d3 solid 3px;
+}
+
+.negritas{
+    font-weight: bolder;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: bolder;
+}
+
+#nosotros{
+    background-image: url("../img/servicios.jpg");
+}
