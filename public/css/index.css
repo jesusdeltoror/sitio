@@ -1,14 +1,22 @@
+
+
+
+/* Divisiones en datos de compromiso */
 .localBorder{
     border-right: #0380d3 solid 3px;
 }
-
-.negritas{
-    font-weight: bolder;
-}
+/* Remarcado de titulos */
 h1,h2,h3,h4,h5,h6{
     font-weight: bolder;
 }
 
 #nosotros{
     background-image: url("../img/servicios.jpg");
+}
+
+
+
+.carousel .carousel-item{
+    width: 55vw;
+    height: min-content;
 }

@@ -15,21 +15,34 @@
   firebase.analytics();
 
 
+  
 
-const options={
-    
-}
-
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, 
+  document.addEventListener('DOMContentLoaded', function() {
+    let elems = document.querySelectorAll('.carousel');
+    let instances = M.Carousel.init(elems, 
       {
-        fullWidth:true,
-        indicators:true
+        /* fullWidth:true, */
+        //indicators:true,
+        dist: -100,
+        
+      });
+    }
+  );
+
+
+  
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, 
+      {
+        draggable: true,
+        
       });
   });
 
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-  });
+
+
+
+    
+

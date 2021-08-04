@@ -15,34 +15,39 @@
 
 <body>
 
-	<header class="navbar-fixed" id="header">
-		<nav class="blue">
-			<div class="nav-wrapper container">
-				<a href="#" class="brand-logo" style="height: 100%;">
-					<img height="100%" src="./img/logo.png" alt="">
-				</a>
-				<a href="#!" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#compromiso">Compromiso</a></li>
-					<li><a href="#nosotros">Nosotros</a></li>
-					<li><a href="#servicios">Servicios</a></li>
-					<li><a href="#contacto">Contacto</a></li>
-				</ul>
-
-			</div>
+		<header class="navbar-fixed">
+			<nav class="blue">
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo flow-text">
+						<!-- <img height="100%" src="./img/logo.png" alt=""> -->
+						Logo
+					</a>
+					<a href="#!" data-target="mobile-demo" class="sidenav-trigger">
+						<i id="logo" class="large material-icons">menu</i>
+					</a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#compromiso">Compromiso</a></li>
+						<li><a href="#nosotros">Nosotros</a></li>
+						<li><a href="#servicios">Servicios</a></li>
+						<li><a href="#contacto">Contacto</a></li>
+					</ul>
+	
+				</div>
+				
+			</nav>
 			
-		</nav>
+		</header>
 		<ul class="sidenav" id="mobile-demo">
-			<li><a href="#compromiso">Compromiso</a></li>
-			<li><a href="#nosotros">Nosotros</a></li>
-			<li><a href="#servicios">Servicios</a></li>
-			<li><a href="google.com">Contacto</a></li>
+			<li><a href="#compromiso"><h3 class="flow-text">Compromiso</h3></a></li>
+			<li><a href="#nosotros"><h3 class="flow-text">Nosotros</h3></a></li>
+			<li><a href="#servicios"><h3 class="flow-text">Servicios</h3></a></li>
+			<li><a href="#contacto"><h3 class="flow-text">Contacto</h3></a></li>
 		</ul>
 		
-	</header>
+	
 
-	<div class="carousel carousel-slider">
+	<!-- <div class="carousel carousel-slider"> -->
+	<div class="carousel blue lighten-5 z-depth-2">
 		<a class="carousel-item" href="#one!"><img class="carrusel" src="./img/Slider/1.jpg"></a>
 		<a class="carousel-item" href="#two!"><img class="carrusel" src="./img/Slider/2.jpg"></a>
 		<a class="carousel-item" href="#three!"><img class="carrusel" src="./img/Slider/3.jpg"></a>
@@ -50,28 +55,38 @@
 		<a class="carousel-item" href="#five!"><img class="carrusel" src="./img/Slider/5.jpg"></a>
 	</div>
 
+	<div class="divider blue"></div>
+
 	<section class="section" id="compromiso">
 
 		<div class="row">
-
-			
 
 				<div class="col s12 m12 l6">
 					<img class="responsive-img" src="./img/nosotros.jpg" alt="">
 				</div>
 
 				<div class="section col s12 m12 l6 z-depth-2">
-					<h4 class="section center-align flow-text">
+					<h4 class="section center-align">
 						COMPROMISO
 					</h4>
 					<div class="divider blue"></div>
-					<p class="section negritas flow-text">
+					<p class="section negritas hide-on-med-and-down">
 						En IT Global Internet estamos comprometidos con el bienestar de nuestros empleados, clientes y
 						la
 						sociedad, por lo que ponemos a su alcance nuestros productos y soluciones amigables con el medio
 						ambiente y con las más altas normas de calidad y seguridad en el país.
 					</p>
-					<p class="section col s6 offset-s6  negritas flow-text">
+					<p class="section col s6 offset-s6  negritas hide-on-med-and-down">
+						ATTE.<br>
+						Ing. Carlos Mario Serrano
+					</p>
+					<p class="section negritas flow-text hide-on-large-only">
+						En IT Global Internet estamos comprometidos con el bienestar de nuestros empleados, clientes y
+						la
+						sociedad, por lo que ponemos a su alcance nuestros productos y soluciones amigables con el medio
+						ambiente y con las más altas normas de calidad y seguridad en el país.
+					</p>
+					<p class="section col s6 offset-s6  negritas flow-text hide-on-large-only">
 						ATTE.<br>
 						Ing. Carlos Mario Serrano
 					</p>
@@ -80,22 +95,26 @@
 		
 	</div>
 
-		<div class="row">
-			<div class="col s12 m6 l4 raw">
-				<h4 class="localBorder col s6 blue-text right-align">169</h4>
-				<h6 class="col s6 left-align">Días sin Caidas en el Servicio</h6>
-			</div>
-			<div class="col s12 m6 l4 raw">
-				<h4 class="localBorder col s6 blue-text right-align">1</h4>
-				<h6 class="col s6 left-align">Caídas del Servicio en el Último Año</h6>
-			</div>
-			<div class="col s12 m6 l4 raw">
-				<h4 class="localBorder col s6 blue-text right-align">1606</h4>
-				<h6 class="col s6 left-align">Días en<br>Operación</h6>
-			</div>
+	<div class="container divider blue"></div>
+
+	<div class="row">
+		<div class="col s12 m6 l4 raw">
+			<h4 class=" localBorder col s6 blue-text right-align">169</h4>
+			<h6 class=" col s6 left-align">Días sin Caidas en el Servicio</h6>
 		</div>
+		<div class="col s12 m6 l4 raw">
+			<h4 class=" localBorder col s6 blue-text right-align">1</h4>
+			<h6 class=" col s6 left-align">Caídas del Servicio en el Último Año</h6>
+		</div>
+		<div class="col s12 m6 l4 raw">
+			<h4 class=" localBorder col s6 blue-text right-align">1606</h4>
+			<h6 class=" col s6 left-align">Días en<br>Operación</h6>
+		</div>	
+	</div>
 
 	</section>
+
+	
 
 	<section id="nosotros">
 		<div class="section">
@@ -311,6 +330,7 @@
 
 	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
 	<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-analytics.js"></script>
+	
 	<script src="./js/materialize.js"></script>
 	<script src="./js/index.js"></script>
 </body>
